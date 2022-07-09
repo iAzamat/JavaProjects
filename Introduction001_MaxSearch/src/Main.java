@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello русский тест world!");
+        System.out.println("Hello С‚РµСЃС‚ world!");
     }
 }
