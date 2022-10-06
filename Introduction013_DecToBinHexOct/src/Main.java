@@ -36,31 +36,31 @@ public class Main {
             if (b == 10) {
                 hex = "A";
             }
-            ;
+
             if (b == 11) {
                 hex = "B";
             }
-            ;
+
             if (b == 12) {
                 hex = "C";
             }
-            ;
+
             if (b == 13) {
                 hex = "D";
             }
-            ;
+
             if (b == 14) {
                 hex = "E";
             }
-            ;
+
             if (b == 15) {
                 hex = "F";
             }
-            ;
+
             if (b >= 0 && b <= 9) {
                 hex = String.valueOf(b);
             }
-            ;
+
             temp = hex + temp;
             a = a / 16;
         }
@@ -69,10 +69,12 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите число которое нужно перевести из 10 системы счисления в 2, 8, 16  ");
+        System.out.println("Введите число которое нужно перевести из 10 системы счисления в 2, 8, 16: ");
         int number = sc.nextInt();
         DectoBin(number);
         DectoHex(number);
         DectoOct(number);
     }
 }
+
+
